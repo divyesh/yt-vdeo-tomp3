@@ -1,0 +1,53 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+frontend/node_modules/
+frontend/dist/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+backend/venv/
+backend/__pycache__/
+.venv
+.env
+.tox
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+*.log
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Application specific
+temp_downloads/
+backend/temp_downloads/
+*.mp3
+*.webm
+*.m4a
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# GSD/Agent specific (optional, but good to keep clean)
+scratch/
